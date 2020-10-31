@@ -1,4 +1,4 @@
-### Baixe a IDE do Arduino <a href="https://downloads.arduino.cc/arduino-1.8.13-windows.zip">aqui</a>
+### Baixe a IDE do Arduino <a href="https://downloads.arduino.cc/arduino-1.8.13-windows.zip">aqui</a> (ZIP)
 
 <br>
 <br>
