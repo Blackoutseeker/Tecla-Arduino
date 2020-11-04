@@ -13,9 +13,9 @@ void setup() {
 
 void loop() {
   if(digitalRead(7) == LOW) {
-    delay(800);
     Keyboard.press(tecla);
     delay(100);
     Keyboard.release(tecla);
+    delay(800);
   }
 }
