@@ -13,9 +13,12 @@ void setup() {
 
 void loop() {
   if(digitalRead(7) == LOW) {
-    Keyboard.press(tecla);
-    delay(100);
-    Keyboard.release(tecla);
-    delay(800);
+    delay(250);
+    if(digitalRead(7) == LOW) {
+      Keyboard.press(tecla);
+      delay(100);
+      Keyboard.release(tecla);
+      delay(800);
+    }
   }
 }
